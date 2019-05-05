@@ -3,8 +3,8 @@ library (lubridate)
 
 # Carga de la base y division por presidente ------------------------------
 
-infojus <- read_csv("base-infoleg-normativa-nacional.csv")
-options(scipen=999) #elimina notacion cientifica
+infojus <- read_csv("base-infoleg-normativa-nacional.csv") #descargado de datos.jus.gob.ar
+
 infojus <- infojus %>% 
   mutate(presidente = case_when(fecha_sancion >= "1983-12-10" & fecha_sancion <= "1989-07-08" ~ "Alfonsin",
                                 fecha_sancion >= "1989-07-09" & fecha_sancion <= "1999-12-09" ~ "Menem",
