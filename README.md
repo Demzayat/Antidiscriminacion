@@ -1,4 +1,3 @@
 # Antidiscriminacion
-codigo de los posts de la web www.antidiscriminacion.org
 
-En este repositorio voy a ir posteando los códigos con los que hago los analisis de los posts del blog de la web Antidiscriminación, y los archivos respectivos. 
+En este repositorio voy a ir posteando los códigos con los que hago los analisis de los posts del blog de la web www.antidiscriminacion.org, y los archivos respectivos y las base de datos que sean públicas.
