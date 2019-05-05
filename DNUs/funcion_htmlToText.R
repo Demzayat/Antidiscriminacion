@@ -1,3 +1,5 @@
+# original code at https://github.com/tonybreyal/Blog-Reference-Functions/blob/master/R/htmlToText/htmlToText.R
+
 htmlToText <- function(input, ...) {
   ###---PACKAGES ---###
   require(RCurl)
